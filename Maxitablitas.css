@@ -1,0 +1,114 @@
+html{
+    font-size: 62.5%;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #333;
+	font-size: 1.6rem;
+	line-height: 2;
+	margin: 0px;
+	background-color: #eee;
+}
+
+p{
+	margin-bottom: 1.6em;
+}
+
+h1{
+	font-size: 2.3rem;
+	line-height: 1.3em;
+}
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.6rem;
+}
+
+p{
+	margin-bottom: 1.6em;
+}
+img{
+	max-width: 100%;
+}
+
+/*CONTENEDOR*/
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.nav-bg{
+    background-color:  #E9F1F7;
+}
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-evenly;
+    } 
+}
+.navegacion-principal a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.navegacion-principal a:hover{
+    background-color:  #ABD8FA;
+
+}
+.logotipo{
+	width: 60px;
+	height: 60px;
+}
+
+/*IMAGEN PRINCIPAL*/
+.hero{
+    background-image: url(/img/maxi1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.contenido-hero{
+	height: 100%;
+    display: flex;
+    justify-content: flex-end;
+	align-items: initial;
+}
+.contenido-hero h1{
+	color: white;
+	font-size: 5rem;
+    max-width: 65rem;
+	display: block;
+	align-self: flex-end;
+	margin-block-end: 0.2em;
+}
+
+/*FOOTER*/
+.site-footer{
+    background-color: black;
+    margin: 0;
+}
+.contenedor-footer{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.copyright{
+    margin: 0;
+    color: white;
+}
